@@ -1,0 +1,6 @@
+framework module Pods_Firebase_Tut {
+  umbrella header "Pods-Firebase Tut-umbrella.h"
+
+  export *
+  module * { export * }
+}
