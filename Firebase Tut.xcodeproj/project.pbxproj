@@ -13,6 +13,7 @@
 		37A1E03C20BD437C0013062C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A1E03B20BD437C0013062C /* Assets.xcassets */; };
 		37A1E03F20BD437C0013062C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A1E03D20BD437C0013062C /* LaunchScreen.storyboard */; };
 		37A1E04720BD43D60013062C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37A1E04620BD43D60013062C /* GoogleService-Info.plist */; };
+		37AD86B320BD89D7008A1187 /* loggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AD86B220BD89D7008A1187 /* loggedInViewController.swift */; };
 		50B27E04AAA3D7FD19A1D9D2 /* Pods_Firebase_Tut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C5FC9F53CF74C93AAF6C81 /* Pods_Firebase_Tut.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		37A1E03E20BD437C0013062C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37A1E04020BD437C0013062C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A1E04620BD43D60013062C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		37AD86B220BD89D7008A1187 /* loggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = loggedInViewController.swift; path = "/Users/techcoderx/Documents/Firebase Tut/Firebase Tut/loggedInViewController.swift"; sourceTree = "<absolute>"; };
 		7754C66A6D0443075956EC30 /* Pods-Firebase Tut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Tut.release.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Tut/Pods-Firebase Tut.release.xcconfig"; sourceTree = "<group>"; };
 		86066822573CECE001BA9B2B /* Pods-Firebase Tut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Tut.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Firebase Tut/Pods-Firebase Tut.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +67,7 @@
 			children = (
 				37A1E03420BD437C0013062C /* AppDelegate.swift */,
 				37A1E03620BD437C0013062C /* ViewController.swift */,
+				37AD86B220BD89D7008A1187 /* loggedInViewController.swift */,
 				37A1E03820BD437C0013062C /* Main.storyboard */,
 				37A1E03B20BD437C0013062C /* Assets.xcassets */,
 				37A1E03D20BD437C0013062C /* LaunchScreen.storyboard */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37A1E03720BD437C0013062C /* ViewController.swift in Sources */,
+				37AD86B320BD89D7008A1187 /* loggedInViewController.swift in Sources */,
 				37A1E03520BD437C0013062C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,7 +382,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V6NDEQJ933;
 				INFOPLIST_FILE = "Firebase Tut/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TechCoderX.Firebase-Tut";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -394,7 +401,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V6NDEQJ933;
 				INFOPLIST_FILE = "Firebase Tut/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TechCoderX.Firebase-Tut";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
